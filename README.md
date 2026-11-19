@@ -10,14 +10,7 @@ L'écran est composé de trois parties empilées verticalement :
 - un **contenu** centré (texte blanc sur fond vert),
 - un **footer** jaune en bas avec le copyright (`AppFooter`).
 
-## Objectifs pédagogiques
-
-- Créer un projet avec Expo (`create-expo-app`)
-- Lancer l'application sur un téléphone avec Expo Go
-- Comprendre la structure d'un projet Expo (`App.js`, `components/`)
-- Créer des composants réutilisables dans des fichiers séparés
-- Utiliser `View`, `Text` et `StyleSheet`
-- Composer un écran avec `flex`
+<img width="739" height="1600" alt="WhatsApp Image 2026-11-19 at 19 19 05 (1)" src="https://github.com/user-attachments/assets/b923e11a-5f94-47c0-8d6f-4fdeaefd0852" />
 
 ## Structure du projet
 
@@ -31,14 +24,6 @@ premier-component-rn/
 ├── app.json                # Configuration Expo
 └── package.json
 ```
-
-## Pré-requis
-
-- [Node.js](https://nodejs.org) (version LTS)
-- npm (installé avec Node.js)
-- L'application **Expo Go** sur ton téléphone (Play Store / App Store)
-- Téléphone et ordinateur connectés au **même réseau Wi-Fi**
-
 ## Installation et lancement
 
 ```bash
@@ -62,11 +47,6 @@ Un **QR code** s'affiche dans le terminal.
 > Si le téléphone ne se connecte pas (réseau de l'école, pare-feu…), utiliser le mode tunnel :
 > `npx expo start --tunnel`
 
-## Mini-défis d'extension
-
-- [ ] Année dynamique dans le footer (`new Date().getFullYear()`) et nom de l'appli
-- [ ] Header plus riche (description, taille et couleur de police)
-- [ ] Créer un composant `MainCard` (carte centrale à fond clair) et l'intégrer dans le contenu
 
 ## Technologies
 
